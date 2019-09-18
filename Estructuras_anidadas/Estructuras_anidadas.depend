@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1568765235 source:c:\users\alumno\desktop\estructuras_anidadas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1568768942 c:\users\alumno\desktop\estructuras_anidadas\persona.h
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+
+1568768942 c:\users\alumno\desktop\estructuras_anidadas\fecha.h
+
+1568765126 source:c:\users\alumno\desktop\estructuras_anidadas\persona.c
+	"persona.h"
+
