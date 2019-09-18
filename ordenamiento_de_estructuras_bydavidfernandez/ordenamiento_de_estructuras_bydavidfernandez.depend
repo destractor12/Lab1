@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568760449 source:c:\users\alumno\desktop\ordenamiento_de_estructuras_bydavidfernandez\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1568760449 c:\users\alumno\desktop\ordenamiento_de_estructuras_bydavidfernandez\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1568760272 source:c:\users\alumno\desktop\ordenamiento_de_estructuras_bydavidfernandez\funciones.c
+	"funciones.h"
+
