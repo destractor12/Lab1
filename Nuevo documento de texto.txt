@@ -1,0 +1,96 @@
+void baja(ePersona pers[], int cant)
+{
+	int auxId;
+	int flag=0;
+	int i;
+	char rta;	
+
+	printf("ingrese el id del empleado que desea eliminar: ");
+	scanf("%d",&auxId);	
+
+	for(i=0;i<cant;i++)
+	{
+		if(auxId==pers[i].id)
+		{
+			printf("");
+			do
+			{			
+				printf("¿Esta seguro de eliminar los datos?");
+				scanf("%c",&rta);
+
+			}while(rta!='s'&&rta!='n');
+
+			if(rta=='s')
+			{
+				pers[i].isEmpty=1;
+				flag=1;
+				break;
+			}		
+		}
+
+	}
+	
+	if(flag==0)
+	{
+		printf("No se encontró el Id");
+	}
+}
+
+
+
+
+
+para la modificacion hay que cambiar:
+
+
+pers[i].isEmpty=1;
+flag=1;
+break;
+
+por esto:
+
+do
+{
+	menu
+	switch(opMod)	
+	{
+		case 1:
+		pers[i].
+		break;
+
+		case 2:
+		break;
+
+		case 3:
+		break;
+
+		case 4:
+		break;
+
+		case 5:
+		break;
+	}
+
+}while(opMod!=5);
+
+
+
+
+
+
+
+
+
+
+#include "persona.h"
+#define TAM 3
+
+
+int main()
+{
+    ePersona pers[TAM]={{"juan","perez",50,0,1,1,1900},
+                        {"jose","diaz",65,0,2,2,1901},
+                        {"jorge","martinez",33,0,3,3,1902}};
+
+    return 0;
+}
