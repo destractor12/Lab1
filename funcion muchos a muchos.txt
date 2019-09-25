@@ -1,0 +1,15 @@
+listo menues
+
+auxMenu
+
+for(i) eMenues
+{
+	if(auxMenu==menues[i].id)
+	{
+		for(j) eAlmuerzos
+		{
+			if(auxMenu==almuezos[j].menuId)
+			{
+				for(k) eEmpleados
+				{
+					if(almuezos[j].empleadoId==empleados[k].id && empleados[k].isEmpty==0)
