@@ -17,6 +17,6 @@ typedef struct{
  * \return void
  *
  */
-void inicializar(eEmployee[], int);
+int initEmployees(eEmployee[], int);
 void alta(eEmployee empleado[], int cant);
 int menu();

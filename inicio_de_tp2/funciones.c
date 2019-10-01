@@ -1,14 +1,21 @@
 #include "funciones.h"
 
 
-void inicializar(eEmployee empleado[], int cant)
+int initEmployees(eEmployee empleado[], int cant)
 {
     int i;
-    for(i=0; i<cant;i++)
+    int retorno=-1;
+    if(empleado!=NULL)
     {
-        empleado[i].isEmpty=1;
+        for(i=0; i<cant;i++)
+        {
+            empleado[i].isEmpty=1;
+        }
+        retorno=0;
     }
 
+
+    return retorno;
 }
 
 
@@ -49,3 +56,10 @@ void alta(eEmployee empleado[], int cant)
     }
 
 }
+
+int addEmployee(Employee* list, int len, int id, char name[],char
+lastName[],float salary,int sector)
+{
+ return -1;
+}
+
