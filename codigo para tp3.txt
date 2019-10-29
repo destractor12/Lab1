@@ -1,0 +1,28 @@
+emp_new_parser(char *a, char *b, char *c, char *d)
+{
+	int id;
+	int horas;
+	int sueldo;
+	*employee aux;	
+
+	id=atoi(a);
+	
+	horas=atoi(c);
+	sueldo=atoi(d);
+		
+	emp_new();	
+
+	emp_setID
+
+}
+
+emp_setID()
+{
+	if (id>0)
+	{
+		
+		
+	}
+
+
+}
